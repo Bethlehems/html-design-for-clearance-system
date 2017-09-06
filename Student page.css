@@ -86,7 +86,6 @@ button {
 .forms {
     padding: 19px;
     width: 107.5%;
-    
 }
 
 input:focus,
@@ -107,15 +106,12 @@ input:active::-webkit-input-placeholder {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
     transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
-    
 }
 
 .inputText {
     font-size: 14px;
     width: 200px;
 }
-
-
 
 img {
     margin-top: 0px;
@@ -135,8 +131,6 @@ select {
     top: 80%;
     left: 47%;
     color: gray;
-    
-    
 }
 
 button:after {
