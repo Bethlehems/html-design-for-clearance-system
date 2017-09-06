@@ -27,10 +27,6 @@ body {
     height: 650px;
 }
 
-img {
-    padding-top: 0px;
-}
-
 h2 {
     font-style: sans-serif;
     color: #96B1D2;
@@ -39,6 +35,11 @@ h2 {
     border-left: 6px solid #96B1D2;
     background-color: lightgray;
     width: 104%;
+}
+
+img {
+    width: 400px;
+    height: 120px;
 }
 
 .b1 {
@@ -53,15 +54,10 @@ h2 {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
     overflow: hidden;
     position: absolute;
-    top: 60%;
+    top: 75%;
     left: 40%;
-    margin-bottom: 30px;
     width: 300px;
-}
-
-img {
-    width: 400px;
-    height: 120px;
+    margin-bottom: 20px;
 }
 
 .b2 {
@@ -76,10 +72,10 @@ img {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
     overflow: hidden;
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 40%;
     width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .b3 {
@@ -94,18 +90,72 @@ img {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
     overflow: hidden;
     position: absolute;
-    top: 80%;
+    top: 95%;
     left: 40%;
     width: 300px;
     margin-bottom: 60px;
 }
 
+button {
+    text-align: center;
+    font: 15px system-ui;
+}
+
+.forms {
+    padding: 19px;
+    width: 107.5%;
+}
+
+input:focus,
 button:focus {
     outline: none;
 }
 
+input::-webkit-input-placeholder {
+    font-family: 'roboto', sans-serif;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus::-webkit-input-placeholder,
+input:active::-webkit-input-placeholder {
+    color: gray;
+    font-size: 12px;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+.inputText,
+.inputPass {
+    font-size: 14px;
+    width: 200px;
+}
+
 img {
     margin-top: 0px;
+}
+
+.forms {
+    text-align: center;
+}
+
+input[type=text],
+select {
+    width: 26%;
+    padding: 15px 2px;
+    border: none;
+    border-bottom: 1px solid black;
+    color: gray;
+}
+
+input[type=password],
+select {
+    width: 26%;
+    padding: 15px 2px;
+    border: none;
+    border-bottom: 1px solid black;
+    color: gray;
 }
 
 button:after {
