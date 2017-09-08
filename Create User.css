@@ -42,23 +42,7 @@ img {
     height: 120px;
 }
 
-.b1 {
-    margin: auto;
-    padding: 15px 45px;
-    font-size: 20px;
-    font-style: normal;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #fff;
-    background-color: #96b1d2;
-    border: none;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
-    overflow: hidden;
-    position: absolute;
-    top: 75%;
-    left: 40%;
-    width: 300px;
-    margin-bottom: 20px;
-}
+
 
 .b2 {
     margin: auto;
@@ -101,6 +85,13 @@ button {
     font: 15px system-ui;
 }
 
+.inputText,
+.inputPass,
+.inputPass1 {
+    margin-left: 122px;
+    font-size: 14px;
+}
+
 input:focus,
 button:focus {
     outline: none;
@@ -121,11 +112,7 @@ input:active::-webkit-input-placeholder {
     transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
 }
 
-.inputText,
-.inputPass {
-    font-size: 14px;
-    margin-left: 122px;
-}
+
 
 img {
     margin-top: 0px;
@@ -133,6 +120,9 @@ img {
 
 .forms {
     text-align: center;
+}
+.inputPass1{
+    margin-top: 18px;
 }
 
 input[type=text],
@@ -147,7 +137,7 @@ select {
 input[type=password],
 select {
     width: 31%;
-    padding: 23px 4px;
+    padding: 28px 4px;
     border: none;
     border-bottom: 1px solid black;
     color: gray;
